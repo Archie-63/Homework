@@ -53,3 +53,31 @@
 //   Console.WriteLine(i);
 //   i += 2;
 //   }
+
+// Console.WriteLine ("Input three-digit nuber");
+// int x = int.Parse(Console.ReadLine());
+// if (x > 99 && x < 1000)
+// Console.WriteLine($"Second digit is {x/10%10}");
+// else
+// {
+//   Console.WriteLine("It's not a three-digit nuber");
+// }
+
+//  Console.WriteLine ("Input  nuber");
+//  int x = int.Parse(Console.ReadLine());
+//  if(x < 100)
+//  Console.WriteLine("There is no third digit here");
+// else
+// {
+//     string str = x.ToString();
+//     Console.WriteLine($"Third digit is {str[2]}");
+// }
+
+//  Console.WriteLine ("Input  number of a week day");
+//  int x = int.Parse(Console.ReadLine());
+//  if(x == 6 || x == 7)
+//  Console.WriteLine ("It's weekend");
+//  else
+//  {
+//  Console.WriteLine ("It's working day");   
+//  }
