@@ -81,3 +81,46 @@
 //  {
 //  Console.WriteLine ("It's working day");   
 //  }
+
+//Палиндром
+// Console.WriteLine("Input number");
+// int x = int.Parse(Console.ReadLine());
+// int temp = x;
+// int y = 0;
+// while(x > 0)
+// {
+//   y = y*10 + x%10;
+//   x = x/10;
+// }
+// if(temp == y)
+// Console.WriteLine("Palindrome");
+// else
+// {
+// Console.WriteLine("Not palindrome");
+// }
+
+//Расстояние между точами
+//  Console.WriteLine("Введите координаты точки А, каждую - с новой строки");
+//    int[] Array1 = new int[3];
+//          for(int i = 0; i < Array1.Length; i++)
+//    {
+//      Array1[i] = int.Parse(Console.ReadLine());
+//    }
+//  Console.WriteLine("Введите координаты точки В, каждую - с новой строки");
+//    int[] Array2 = new int[3];
+//          for(int i = 0; i < Array2.Length; i++)
+//    {
+//      Array2[i] = Int32.Parse(Console.ReadLine());
+//    }
+//   double d1 = 0;
+//   for(int i = 0; i < 3; i++)
+//    {
+//     d1 = d1 + Math.Pow((Array1[i] - Array2[i]), 2);
+//    }
+// Console.WriteLine($"Расстояние между точками А и В равно {Math.Round(Math.Sqrt(d1), 3)}");
+
+//Таблица кубов
+// Console.WriteLine("Input number");
+// int n = int.Parse(Console.ReadLine ());
+// for(int i = 1; i <= n; i++)
+// Console.WriteLine(i*i*i);
