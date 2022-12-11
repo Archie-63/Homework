@@ -124,3 +124,41 @@
 // int n = int.Parse(Console.ReadLine ());
 // for(int i = 1; i <= n; i++)
 // Console.WriteLine(i*i*i);
+
+//Возведение в степень
+// Console.WriteLine("Input number A as base");
+// int a = int.Parse(Console.ReadLine ());
+// Console.WriteLine("Input number B as exponent");
+// int b = int.Parse(Console.ReadLine ());
+// int x = 1;
+// for(int i = 1; i <=b; i++)
+// {
+//  x = x*a;
+// }
+// Console.WriteLine($"Result of exponentation is {x}");
+
+//Сумма цифр в числе
+// Console.WriteLine("Input number");
+// int x = int.Parse(Console.ReadLine());
+// int a = 0;
+// while(x > 0)
+// {
+//   a = a + x%10;
+//   x = x/10;
+// }
+// System.Console.WriteLine($"Sum of digits in number is {a}");
+
+//Массив
+// Console.WriteLine("Введите последовательно элементы массива, каждый - с новой строки");
+// int[] Array = new int[8];
+// for(int i = 0; i < Array.Length; i++)
+// {
+//  Array[i] = int.Parse(Console.ReadLine());
+// }
+// Console.WriteLine();
+// Console.Write("[");
+// for(int i = 0; i < Array.Length; i++)
+// {
+//   Console.Write($" {Array[i]}");
+// }
+// Console.Write(" ]");
