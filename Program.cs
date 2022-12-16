@@ -125,7 +125,7 @@
 //     Console.Write($"{Arr[i]} ");
 //   }
 // }
-// void GetNumberOfOsinives(int[] mass)
+// void GetNumberOfPosinives(int[] mass)
 // {
 //   int[] massive = new int[mass.Length];
 //   int Sum = 0;
