@@ -160,4 +160,4 @@
 // else
 // {
 // Console.Write($"Coordinates of interception of two lines: ({Math.Round(x,3)}, {Math.Round(x*k1+b1,3)})");
-// }
+// } 
