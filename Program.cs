@@ -103,3 +103,61 @@
 // Console.WriteLine();
 // Console.Write(FindMaxMin(arr));
 
+// int ReadInt()
+// {
+// Console.WriteLine("Input number of numbers");
+// int m = int.Parse(Console.ReadLine());
+// return m;
+// }
+// int [] MakeFillArray(int Length)
+// {
+// int[] arr = new int[Length];
+//   for(int i = 0; i < Length; i++)
+//   {
+//     arr[i] = new Random().Next(-100, 101);
+//   }
+//   return arr;
+// }
+// void PrintArray(int[] Arr)
+// {
+//     for(int i = 0; i < Arr.Length; i++)
+//   {
+//     Console.Write($"{Arr[i]} ");
+//   }
+// }
+// void GetNumberOfOsinives(int[] mass)
+// {
+//   int[] massive = new int[mass.Length];
+//   int Sum = 0;
+//   for(int i = 0; i < mass.Length; i++)
+//   {
+//     if(mass[i] > 0)
+//     Sum++;
+//   }
+//   Console.WriteLine($"Number of positives is {Sum}");
+// }
+// int[] Array = MakeFillArray(ReadInt());
+// PrintArray(Array);
+// Console.WriteLine();
+// GetNumberOfOsinives(Array);
+
+// Console.WriteLine("Input coefficients k1, b1, k2, b2");
+// double k1 = Convert.ToDouble(Console.ReadLine());
+// double b1 = Convert.ToDouble(Console.ReadLine());
+// double k2 = Convert.ToDouble(Console.ReadLine());
+// double b2 = Convert.ToDouble(Console.ReadLine());
+// Console.Write($"k1 = {k1}, b1 = {b1}, k2 = {k2}, b2 = {b2}");
+// double x = (b2-b1)/(k1-k2);
+// System.Console.WriteLine();
+// if(k1==k2 && b1==b2)
+// {
+// Console.WriteLine("Lines are coinside");
+// }
+// else if(k1==k2 && !(b1==b2))
+// {
+// Console.WriteLine("Lines are parallel");
+// }
+// else
+// {
+// Console.Write($"Coordinates of interception of two lines: ({Math.Round(x,3)}, {Math.Round(x*k1+b1,3)})");
+// }
