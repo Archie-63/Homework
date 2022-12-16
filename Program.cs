@@ -125,7 +125,7 @@
 //     Console.Write($"{Arr[i]} ");
 //   }
 // }
-// void GetNumberOfPosinives(int[] mass)
+// void GetNumberOfPositives(int[] mass)
 // {
 //   int[] massive = new int[mass.Length];
 //   int Sum = 0;
@@ -139,7 +139,7 @@
 // int[] Array = MakeFillArray(ReadInt());
 // PrintArray(Array);
 // Console.WriteLine();
-// GetNumberOfOsinives(Array);
+// GetNumberOfPositives(Array);
 
 // Console.WriteLine("Input coefficients k1, b1, k2, b2");
 // double k1 = Convert.ToDouble(Console.ReadLine());
