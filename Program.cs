@@ -161,3 +161,127 @@
 // {
 // Console.Write($"Coordinates of interception of two lines: ({Math.Round(x,3)}, {Math.Round(x*k1+b1,3)})");
 // } 
+
+// int ReadInt()
+// {
+// Console.WriteLine("Input number");
+// int m = int.Parse(Console.ReadLine());
+// return m;
+// }
+// double [,] MakeFillArray(int Length1, int Length2)
+// {
+//  Random random = new Random(); 
+// double[,] arr = new double[Length1, Length2];
+//   for(int i = 0; i < Length1; i++)
+//   {
+//     for(int j = 0; j < Length2; j++)
+//     arr[i, j] = random.NextDouble()*200-100;
+//   }
+//   return arr;
+// }
+// void PrintArray(double[,] Arr)
+// {
+//     for(int i = 0; i < Arr.GetLength(0); i++)
+//   {
+//     for(int j = 0; j < Arr.GetLength(1); j++)
+//     {
+//       Console.Write($" {Math.Round(Arr[i,j],2)}  ");
+//     }
+//     Console.WriteLine();
+//   }
+// }
+// double[,] Array = MakeFillArray(ReadInt(),ReadInt());
+// PrintArray(Array);
+// Console.WriteLine();
+
+// int ReadInt()
+// {
+// Console.WriteLine("Input number");
+// int m = int.Parse(Console.ReadLine());
+// return m;
+// }
+// int [,] MakeFillArray(int Length1, int Length2)
+// {
+// int[,] arr = new int[Length1, Length2];
+//   for(int i = 0; i < Length1; i++)
+//   {
+//     for(int j = 0; j < Length2; j++)
+//     arr[i, j] = new Random().Next(-100, 101);
+//   }
+//   return arr;
+// }
+// void PrintArray(int[,] Arr)
+// {
+//     for(int i = 0; i < Arr.GetLength(0); i++)
+//   {
+//     for(int j = 0; j < Arr.GetLength(1); j++)      
+//     Console.Write($"{Arr[i,j]} ");
+//     Console.WriteLine();
+//   }
+// }
+// void FindValue(int[,] Arr)
+// {
+//   Console.WriteLine("Input value to find");
+//   int x = int.Parse(Console.ReadLine());
+//   int Count = 0;
+//    for(int i = 0; i < Arr.GetLength(0); i++)
+//   {
+//     for(int j = 0; j < Arr.GetLength(1); j++)
+//        if(Arr[i,j]==x )
+//       {
+//        Console.WriteLine($"Value {x} occures in array cell ({i},{j})");
+//        Count++;
+//       }
+//   }      
+//          if(Count==0)
+//          System.Console.Write("There is no such value in array"); 
+//          else
+//          Console.WriteLine($"Value {x} occures in array {Count} time(s)");           
+// }     
+// int[,] Array = MakeFillArray(ReadInt(),ReadInt());
+// PrintArray(Array);
+// Console.WriteLine();
+// FindValue(Array);
+
+// int ReadInt()
+// {
+// Console.WriteLine("Input numbers");
+// int m = int.Parse(Console.ReadLine());
+// return m;
+// }
+// int [,] MakeFillArray(int Length1, int Length2)
+// {
+// int[,] arr = new int[Length1, Length2];
+//   for(int i = 0; i < Length1; i++)
+//   {
+//     for(int j = 0; j < Length2; j++)
+//     arr[i, j] = new Random().Next(-100,101);
+//   }
+//   return arr;
+// }
+// void PrintArray(int[,] Arr)
+// {
+//     for(int i = 0; i < Arr.GetLength(0); i++)
+//   {
+//     for(int j = 0; j < Arr.GetLength(1); j++)      
+//     Console.Write($"{Arr[i,j]} ");
+//     Console.WriteLine();
+//   }
+// }
+// void ColumnAverage(int[,] Arr)
+// {
+//    double[] Average = new double[Arr.GetLength(1)];
+//    for(int j = 0; j < Arr.GetLength(1); j++)
+//      {
+//        double Sum=0;  
+//          for(int i = 0; i < Arr.GetLength(0); i++)
+//            Sum+=Arr[i,j];      
+//            Average[j] = Sum/Arr.GetLength(0);
+//            Console.Write($"{Math.Round(Average[j],1)}  ");   
+//      }    
+// }  
+// int[,] Array = MakeFillArray(ReadInt(),ReadInt());
+// PrintArray(Array);
+// Console.WriteLine("Average values of array columns are:");
+// ColumnAverage(Array);
+
